@@ -1,0 +1,16 @@
+##################################################################
+##################  AWS Console Access  ##########################
+##################################################################
+[sso-session test_session]
+sso_start_url = https://blabla.awsapps.com/start/#
+sso_region = us-east-1
+sso_registration_scopes = sso:account:access
+
+[profile some_profile_name]
+sso_session = test_session1
+sso_account_id = XXXXXXXXXXXX
+sso_role_name = PowerUserAccess
+region = us-east-1
+output = json
+
+#################################################################
