@@ -6,7 +6,7 @@ Bash scripts that allows you to get Json Documents for Inline and Managed polici
 
 #### Prerequisites:
 - Bash
-- AWS Programatic Acess
+- AWS Programatic Access
 
 #### Usage:
 
