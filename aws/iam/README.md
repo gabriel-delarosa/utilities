@@ -1,5 +1,12 @@
-## GET IAM Role Policies
+## IAM Scripts
 ---
+### Table of Content:
+1. [Get IAM Role Policies](#GET-IAM-Role-Policies)
+
+---
+
+### GET IAM Role Policies
+
 #### Description:
 
 Bash scripts that allows you to get Json Documents for Inline and Managed policies attached to a given IAM Role
@@ -9,6 +16,7 @@ Bash scripts that allows you to get Json Documents for Inline and Managed polici
 - AWS Programatic Access
 
 #### Usage:
+> Get the scripts from iam-polcies folder
 
 Inline Policies:
 ```
